@@ -5,6 +5,7 @@
 xsetroot -cursor_name left_ptr &
 pgrep -x sxhkd > /dev/null || sxhkd &
 ~/.config/polybar/launch.sh
+~/.fehbg &
 setxkbmap -layout gb,de -option 'grp:alt_shift_toggle'
 wmname LG3D
 export _JAVA_AWT_WM_NONREPARENTING=1
